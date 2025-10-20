@@ -1,0 +1,31 @@
+body {
+font-family: 'Lexend', sans-serif;
+}
+.skill-card {
+    transition: all 0.3s ease;
+}
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+
+/*cv*/
+.cv-download-card {
+    background-color: #fff; /* white card */
+    color: #000; /* black text */
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+.cv-download-card:hover {
+    background-color: #333333; /* black on hover */
+    color: #fff; /* white text on hover */
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+.cv-download-card i {
+    transition: transform 0.3s ease;
+}
+.cv-download-card:hover i {
+    transform: translateY(-2px);
+}
